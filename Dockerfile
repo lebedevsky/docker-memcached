@@ -6,4 +6,4 @@ RUN yum -y clean all
 
 EXPOSE 11211
 
-CMD ["/usr/bin/memcached", "-p", "11211", "-u", "memcached", "-m", "128"]
+CMD ["memcached", "-p", "11211", "-u", "memcached", "-m", "128"]
